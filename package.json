@@ -1,0 +1,37 @@
+{
+    "name": "emoticons-generator",
+    "version": "0.0.1",
+    "description": "A SVG emoticons' generator",
+    "author": "Julian Edelin",
+    "homepage": "https://github.com/Xemaro/emoticons-generator#readme",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Xemaro/emoticons-generator/issues"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Xemaro/emoticons-generator.git"
+    },
+    "keywords": [
+        "gulp",
+        "emoticons",
+        "svg"
+    ],
+    "devDependencies": {
+        "del": "^2.2.2",
+        "vinyl-paths": "^2.1.0",
+        "run-sequence": "^1.2.2",
+        
+        "gulp": "^3.9.1",
+        "gulp-load-plugins": "^1.4.0",
+        "gulp-plumber": "^1.1.0",
+        
+        "gulp-json-concat": "^0.0.5",
+        "gulp-jsonminify": "^1.0.0",
+        
+        "gulp-svgo": "^1.0.3"
+    }
+}
